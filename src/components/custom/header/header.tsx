@@ -1,8 +1,22 @@
 import React from 'react'
+import Image from 'next/image'
+import Favicon from '@/app/favicon.ico'
 
 const Header = () => {
   return (
-    <div>Header</div>
+    <div className="bg-slate-50 p-2 flex flex-row justify-between">
+        <div className="flex flex-row align-middle justify-center gap-2">
+            <Image src={Favicon} width="60" height="60" alt="Media-X-Infinity Logo"/> 
+            <p className="my-auto text-xl font-bold">Media X Infinity</p>
+        </div>
+        <div className="flex flex-col align-middle justify-center">
+            <div className="my-auto">
+                Menu Items
+            </div>
+        </div>
+
+
+    </div>
   )
 }
 
