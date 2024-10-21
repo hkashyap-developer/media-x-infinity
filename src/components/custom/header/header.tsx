@@ -7,8 +7,10 @@ const Header = () => {
   return (
     <div className="bg-slate-50 p-2 flex flex-row justify-between">
         <div className="flex flex-row align-middle justify-center gap-2">
+            <Link href="/" className="flex flex-row align-middle justify-center gap-2">
             <Image src={Favicon} width="40" height="40" alt="Media-X-Infinity Logo"/> 
             <p className="my-auto text-xl font-bold">Media X Infinity</p>
+            </Link>
         </div>
         <div className="flex flex-col align-middle justify-center">
             <div className="my-auto">
