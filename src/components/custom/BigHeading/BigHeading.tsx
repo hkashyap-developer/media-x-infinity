@@ -7,21 +7,17 @@ import { Bell } from 'lucide-react';
 
 import { Badge } from '@/components/ui/badge';;
 import ThreeJsMXI from '@/components/custom/ThreeJs/ThreeJsMXI'
+import { Button } from "@/components/ui/button";
 const Hero13 = () => {
   return (
 
 
-<div className="min-h-[94vh] relative flex size-full items-center justify-center overflow-hidden bg-background">
+<div className="min-h-[92vh] relative flex size-full items-center justify-center overflow-hidden bg-background">
 
 
 
-    <section className="py-4 px-8">
-      <div className="bg-white">
-
-
-
-
-      <ThreeJsMXI/>
+    <section className="py-12 px-8 flex flex-col 2xl:flex-row gap-4 z-10">
+      <div className="my-auto">
 
 
 
@@ -45,7 +41,18 @@ const Hero13 = () => {
         <div className="mt-6 flex flex-col gap-4 sm:flex-row lg:mt-10">
 
         </div>
+
+
+
       </div>
+
+      <div className="">
+
+        <ThreeJsMXI/>
+
+      </div>
+
+
     </section>
 
 

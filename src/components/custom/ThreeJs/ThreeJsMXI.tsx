@@ -1,11 +1,14 @@
-import Spline from '@splinetool/react-spline/next';
+import Image from "next/image";
+import MXILogo from './hero-1.jpg'
 
 export default function Home() {
   return (
-    <main className="z-50">
-      <Spline
-        scene="https://prod.spline.design/wKaeowD81v4tR3TB/scene.splinecode" 
-      />
-    </main>
+    <Image 
+    src={MXILogo} 
+    height="1920" 
+    width="1920" 
+    alt="MXI Logo"
+    className="max-w-[600px] mx-auto"
+    />
   );
 }
