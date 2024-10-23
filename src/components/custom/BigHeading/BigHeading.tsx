@@ -3,10 +3,9 @@
 import { cn } from "@/lib/utils";
 import GridPattern from "@/components/ui/grid-pattern";
 
-import { Bell, PlayCircle } from 'lucide-react';
+import { Bell } from 'lucide-react';
 
-import { Badge } from '@/components/ui/badge';
-import { Button } from '@/components/ui/button';
+import { Badge } from '@/components/ui/badge';;
 import ThreeJsMXI from '@/components/custom/ThreeJs/ThreeJsMXI'
 const Hero13 = () => {
   return (
