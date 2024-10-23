@@ -4,7 +4,7 @@ import HeroVideoDialog from "@/components/ui/hero-video-dialog";
 
 export default function HeroVideoDialogDemo() {
   return (
-    <div className="relative">
+    <div className="max-w-[1200px] mx-auto relative px-auto">
       <HeroVideoDialog
         className="dark:hidden block"
         animationStyle="from-center"
